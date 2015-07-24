@@ -1,0 +1,92 @@
+{
+    "appName": "Orange",
+    "tests": [
+        {
+            "id": "100",
+            "name": "Section (Food)",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.today.com",
+            "urlSegments": [
+                "/food",
+                "/food/",
+                "/food/dinner",
+                "/food/recipes"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "<h2 class=\"block-headline"
+                }
+            ]
+        },
+        {
+            "id": "101",
+            "name": "Home page",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.today.com",
+            "urlSegments": [
+                "/"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "<div class=/"talent-l-img"
+                }
+            ]
+        },
+        {
+            "id": "102",
+            "name": "Article",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.today.com",
+            "urlSegments": [
+                "/news/article-t34371"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "<h1 class=\"entry-headline"
+                }
+            ]
+        },
+        {
+            "id": "103",
+            "name": "404 page",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.today.com",
+            "urlSegments": [
+                "/404"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "404"
+                },
+                {
+                    "type": "html",
+                    "value": "<h2>404 error</h2>"
+                }
+            ]
+        }
+    ]
+}
