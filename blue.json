@@ -111,6 +111,78 @@
                     "value": "<div class=\"grid_default\""
                 }
             ]
+        },
+        {
+            "id": "105",
+            "name": "Elections 2014 (National)",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.nbcnews.com",
+            "urlSegments": [
+                "/politics/elections/2014/",
+                "/politics/elections/2014/us/exit-polls",
+                "/politics/elections/2014/us/senate-overview",
+                "/politics/elections/2014/us/house-overview",
+                "/politics/elections/2014/us/governor-overview",
+                "/politics/elections/2014/us/races-to-watch"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "panel-group_header desktop national"
+                }
+            ]
+        },
+        {
+            "id": "106",
+            "name": "Elections 2014 (State pages)",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.nbcnews.com",
+            "urlSegments": [
+                "/politics/elections/2014/al/",
+                "/politics/elections/2014/AL/",
+                "/politics/elections/2014/SC/",
+                "/politics/elections/2014/AK/"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "e2014-module_legend"
+                }
+            ]
+        },
+        {
+            "id": "107",
+            "name": "Elections 2014 (Exit polls)",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.nbcnews.com",
+            "urlSegments": [
+                "/politics/elections/2014/AK/I1/exitpoll",
+                "/politics/elections/2014/US/house/exitpoll"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "e2014-font poll-questions"
+                }
+            ]
         }
     ]
 }
