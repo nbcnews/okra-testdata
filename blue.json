@@ -192,8 +192,6 @@
             "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
-                "/feature",
-                "/feature/",
                 "/feature/missing-in-america",
                 "/feature/in-plain-sight",
                 "/feature/meet-the-press-24-7"
@@ -210,6 +208,28 @@
                 {
                     "type": "html",
                     "value": "article_col-main-left article_main"
+                }
+            ]
+        },
+        {
+            "id": "109",
+            "name": "Feature index",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.nbcnews.com",
+            "urlSegments": [
+                "/feature",
+                "/feature/"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "container-gutter"
                 }
             ]
         }
