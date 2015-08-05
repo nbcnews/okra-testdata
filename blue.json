@@ -183,6 +183,35 @@
                     "value": "e2014-font poll-questions"
                 }
             ]
+        },
+        {
+            "id": "108",
+            "name": "Feature fronts",
+            "runAt": "",
+            "status": "",
+            "errMsg": "",
+            "baseUrl": "http://www.nbcnews.com",
+            "urlSegments": [
+                "/feature",
+                "/feature/",
+                "/feature/missing-in-america",
+                "/feature/in-plain-sight",
+                "/feature/meet-the-press-24-7"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "<a class=\"breadcrumb\" href=\"/feature/\">Feature</a>"
+                },
+                {
+                    "type": "html",
+                    "value": "article_col-main-left article_main"
+                }
+            ]
         }
     ]
 }
