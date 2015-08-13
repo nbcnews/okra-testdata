@@ -4,9 +4,6 @@
         {
             "id": "100",
             "name": "Section (tech)",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/tech/",
@@ -29,9 +26,6 @@
         {
             "id": "101",
             "name": "Home page",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/"
@@ -50,9 +44,6 @@
         {
             "id": "102",
             "name": "Article",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/tech/gadgets/article-test-n364676"
@@ -71,9 +62,6 @@
         {
             "id": "103",
             "name": "404 page",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/pages/404"
@@ -92,9 +80,6 @@
         {
             "id": "104",
             "name": "static pages",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/pages/news-connect",
@@ -115,9 +100,6 @@
         {
             "id": "105",
             "name": "Elections 2014 (National)",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/politics/elections/2014/",
@@ -141,9 +123,6 @@
         {
             "id": "106",
             "name": "Elections 2014 (State pages)",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/politics/elections/2014/al/",
@@ -165,9 +144,6 @@
         {
             "id": "107",
             "name": "Elections 2014 (Exit polls)",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/politics/elections/2014/AK/I1/exitpoll",
@@ -187,9 +163,6 @@
         {
             "id": "108",
             "name": "Feature fronts",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/feature/missing-in-america",
@@ -214,9 +187,6 @@
         {
             "id": "109",
             "name": "Feature index",
-            "runAt": "",
-            "status": "",
-            "errMsg": "",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/feature",
