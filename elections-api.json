@@ -1,0 +1,29 @@
+{
+    "appName": "ElectionsApi",
+    "tests": [
+        {
+            "id": "100",
+            "name": "Race Results",
+            "baseUrl": "http://data.nbcnews.com",
+            "urlSegments": [
+                "/ElectionsApi/2014/CA",
+                "/ElectionsApi/2014/California",
+                "/ElectionsApi/2014/CA/House/8",
+                "/ElectionsApi/2014/AK/Governor",
+                "/ElectionsApi/2014/AK/G",
+                "/ElectionsApi/2014/keyraces",
+                ""
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "json",
+                    "value": "[{\"Id\":\"races/"
+                }
+            ]
+        }
+    ]
+}
