@@ -202,6 +202,25 @@
                     "value": "container-gutter"
                 }
             ]
+        },
+        {
+            "id": "110",
+            "name": “Special Pages",
+            "baseUrl": "http://www.nbcnews.com",
+            "urlSegments": [
+                “/pages",
+                “/pages/conviction"
+            ],
+            "assertions": [
+                {
+                    "type": "statusCode",
+                    "value": "200"
+                },
+                {
+                    "type": "html",
+                    "value": "Conviction - NBC News"
+                }
+            ]
         }
     ]
 }
