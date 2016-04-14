@@ -205,11 +205,11 @@
         },
         {
             "id": "110",
-            "name": “Special Pages",
+            "name": "Special Pages",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
-                “/pages",
-                “/pages/conviction"
+                "/pages",
+                "/pages/conviction"
             ],
             "assertions": [
                 {
