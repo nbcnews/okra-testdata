@@ -46,7 +46,8 @@
             "name": "Article",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
-                "/tech/gadgets/article-test-n364676"
+                "/politics/2016-election/bernie-sanders-eases-then-tees-clinton-n560276",
+                "/politics/2016-election/fake-slug-n560276"
             ],
             "assertions": [
                 {
@@ -208,7 +209,7 @@
             "name": "Special Pages",
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
-                "/pages",
+                "/pages/weathermen",
                 "/pages/conviction"
             ],
             "assertions": [
@@ -218,7 +219,7 @@
                 },
                 {
                     "type": "html",
-                    "value": "Conviction - NBC News"
+                    "value": "- NBC News"
                 }
             ]
         }
