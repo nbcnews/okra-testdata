@@ -210,7 +210,8 @@
             "baseUrl": "http://www.nbcnews.com",
             "urlSegments": [
                 "/pages/weathermen",
-                "/pages/conviction"
+                "/pages/conviction",
+                "/specials/the-healers"
             ],
             "assertions": [
                 {
